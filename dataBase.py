@@ -3,8 +3,7 @@ import aiogram
 import datetime
 from multipledispatch import dispatch
 
-connectionString = ("DRIVER={ODBC Driver 17 for SQL Server};""Server=LAPTOP-EPU9MU39\EGORSQL;"
-                    "Database = [Курсы иностранных языков];""Trusted_Connection=yes")
+connectionString = ("")
 # PapugaBot
 connection = pyodbc.connect(connectionString, autocommit=True)
 db_cursor = connection.cursor()
