@@ -1,7 +1,7 @@
 import logging
 
 from aiogram import Bot, Dispatcher
-bot = Bot(token="1751405813:AAGC2x1EGIJy1JSuMdnEF9tsFSsu9upQCVI")
+bot = Bot(token="")
 
 
 
